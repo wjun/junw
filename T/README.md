@@ -1,4 +1,4 @@
-# COMMAND LINE INTERFACE (CLI) INTRODUCTION(test)
+# COMMAND LINE INTERFACE (CLI) INTRODUCTION(night)
 ## 1. Terminology
 <p class=MsoNormal><span style='font-family:"Times New Roman","serif"'>Node: A
 VM in the cluster</span></p>
