@@ -564,6 +564,17 @@ Optional-command-key-values are parameters that are optional for the operation.<
   &lt;</span><span style='font-size:10.0pt;font-family:"Times New Roman","serif"'>
   </span><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>flag
   to resume cluster creation &gt;</span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>--skipConfigValidation
+  &lt;</span><span style='font-size:10.0pt;font-family:"Times New Roman","serif"'>
+  </span><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>flag to skip cluster configuration validation 
+&gt;</span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>--yes
+  &lt;</span><span style='font-size:10.0pt;font-family:"Times New Roman","serif"'>
+  </span><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>flag
+  to answer 'yes' to all Y/N questions &gt;</span></p>
+
   </td>
   <td width=275 valign=top style='width:206.1pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
