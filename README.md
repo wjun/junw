@@ -519,7 +519,7 @@ Optional-command-key-values are parameters that are optional for the operation.<
   </td>
  </tr>
  <tr>
-  <td width=67 rowspan=7 valign=top style='width:.7in;border:solid windowtext 1.0pt;
+  <td width=67 rowspan=9 valign=top style='width:.7in;border:solid windowtext 1.0pt;
   border-top:none;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>cluster</span></p>
@@ -898,7 +898,7 @@ Optional-command-key-values are parameters that are optional for the operation.<
   normal'><b><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>Function</span></b></p>
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>Set
-  or query target cluster to run commands.</span></p>
+  or query target cluster to run hadoop commands.</span></p>
   </td>
  </tr>
  <tr style='height:31.0pt'>
