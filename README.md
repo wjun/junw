@@ -970,3 +970,6 @@ Optional-command-key-values are parameters that are optional for the operation.<
   </td>
  </tr>
 </table>
+## 6. Hadoop Commands
+From CLI 0.6.0, we integrated impala(https://github.com/SpringSource/impala) hadoop hdfs, map/reduce, pig, and hive commands into CLI. More details can be foundfrom CLI help.
+
