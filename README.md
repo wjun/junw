@@ -1050,7 +1050,37 @@ Compute nodes are re-commissioned and powered-on or decommissioned and powered-o
   the rack->hosts mapping topology.</span></p>
   </td>
  </tr>
-
+ <tr>
+  <td width=66 valign=top style='width:49.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>upload</span></p>
+  </td>
+  <td width=216 valign=top style='width:2.25in;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>Mandatory</span></b></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>--fileName
+  &lt;topology file name&gt;</a></span></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>Options</span></b></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>--yes
+  &lt;answer 'yes' to all Y/N questions.&gt;</a></span></p>
+  </td>
+  <td width=275 valign=top style='width:206.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>Function</span></b></p>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>Upload a rack-->hosts mapping topology file.
+  </span></p>
+  </td>
+ </tr>
  <tr>
   <td width=67 valign=top style='width:.7in;border:solid windowtext 1.0pt;
   border-top:none;padding:0in 5.4pt 0in 5.4pt'>
