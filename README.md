@@ -1016,8 +1016,9 @@ Compute nodes are re-commissioned and powered-on or decommissioned and powered-o
   </td>
  </tr>
  <tr style='height:31.0pt'>
-  <td width=67 valign=top style='width:.7in;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:31.0pt'>
+  <td width=67 rowspan=2 valign=top style='width:.7in;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+
   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
   normal'><span style='font-size:9.0pt;font-family:"Times New Roman","serif"'>topology</span></p>
   </td>
