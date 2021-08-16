@@ -22,6 +22,15 @@ The major work includes:
 - create an account from https://docs.docker.com/docker-hub/
 - add your applicaiton into a docker image through docker build https://docs.docker.com/engine/reference/builder/
 - docker push your image to docker hub so others can consume it anywhere. http://c.biancheng.net/view/3143.html
-## 5. Introduction to kubernetes: https://www.katacoda.com/courses/kubernetes/
+## 5. Introduction to kubernetes
+### 5.1 Network programming basis
+- client and server communicate with network packages under network protocol through network connections. A connection is distinguished by [source ip, source port, destination ip, destionation port].
+- tcp/ip package format: https://www.cnblogs.com/wuyuan2011woaini/p/5778949.html
+- port concept: https://www.jianshu.com/p/686ce760cc7a
+### 5.2 k8s architecture
+
+### 5.3 k8s online self learning portal
+- https://kubernetes.io/docs/tutorials/
+- https://www.katacoda.com/courses/kubernetes/
 - https://www.researchgate.net/figure/Kubernetes-architecture_fig1_320248964
 ## 6. Introduction to cloud native application development
