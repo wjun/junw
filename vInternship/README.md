@@ -1,8 +1,10 @@
 # vInternship 2021
 ## 1. Introduction to Information Technology
+```
 Major reference course: https://online.stanford.edu/courses/soe-ycscs101-sp-computer-science-101
 [Computer architecture](images/computer.jpg)
 [Operating system components](images/monolithic_os_kernel.gif)
+```
 ## 2. Introduction to programming(Golang): https://gobyexample.com/
 It is encouraged you play and learn Golang when you have some time at: https://play.golang.org/
 
