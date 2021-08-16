@@ -6,5 +6,6 @@ It is encouraged you play and learn Golang when you have some time at: https://p
 
 ## 3. Introduction to virtualization and cloud computing: https://cs4740-s21.martyhumphrey.info/
 ## 4. Introduction to docker and docker image
+https://docs.docker.com/engine/reference/builder/
 ## 5. Introduction to kubernetes: https://www.katacoda.com/courses/kubernetes/
 ## 6. Introduction to cloud native application development
