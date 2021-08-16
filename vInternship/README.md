@@ -9,7 +9,7 @@
 
 ## 2. Introduction to programming(Golang): https://gobyexample.com/
 - It is encouraged you play and learn Golang when you have some time at: https://play.golang.org/
-- major syntax: if, for, array, slice, map, struct, interface, method, pointer, file, network(http client/server)
+- major syntax: if, for, array, slice, map, struct, interface, method, pointer, goroutine, channel, file, network(http client/server)
 
 ## 3. Introduction to virtualization and cloud computing: https://cs4740-s21.martyhumphrey.info/
 - https://www.netapp.com/blog/containers-vs-vms/
@@ -22,15 +22,24 @@ The major work includes:
 - create an account from https://docs.docker.com/docker-hub/
 - add your applicaiton into a docker image through docker build https://docs.docker.com/engine/reference/builder/
 - docker push your image to docker hub so others can consume it anywhere. http://c.biancheng.net/view/3143.html
+- one example can be found from [dockerexample](dockerexample)
 ## 5. Introduction to kubernetes
 ### 5.1 Network programming basis
 - client and server communicate with network packages under network protocol through network connections. A connection is distinguished by [source ip, source port, destination ip, destionation port].
 - tcp/ip package format: https://www.cnblogs.com/wuyuan2011woaini/p/5778949.html
 - port concept: https://www.jianshu.com/p/686ce760cc7a
 ### 5.2 k8s architecture
-
+[k8s architecture](images/Kubernetes-architecture.png)
+Solving two problems with containers mainly: 1. how to manange multiple replicas of an application so one replica is dead, others can still serve. 2. schedule containers to different machines(or called nodes) so no machine will run too many containers that it will result the running of applications slow.
 ### 5.3 k8s online self learning portal
 - https://kubernetes.io/docs/tutorials/
 - https://www.katacoda.com/courses/kubernetes/
-- https://www.researchgate.net/figure/Kubernetes-architecture_fig1_320248964
 ## 6. Introduction to cloud native application development
+## 7. Online/Remote working
+- zoom to meet: https://www.zoom.com
+- slack to chat: https://www.slack.com
+- git to code/review in peers: https://github.com
+- online docs, etc google docs, microsoft offices, confluence pages
+- online whiteboards: https://micro.com
+- emails
+
