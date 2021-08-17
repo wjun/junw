@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helloserver 
+spec:
+  selector:
+    matchLabels:
+      run: helloserver
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: helloserver
+    spec:
+      containers:
+      - name: helloserver
+        image: wjunott/helloserver
+        ports:
+        - containerPort: 8090
+      imagePullSecrets:
+      - name: regcred
+
+

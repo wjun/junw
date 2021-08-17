@@ -1,4 +1,4 @@
-# vInternship 2021
+# vInternship 2021: Cloud Native Application Development
 ## 1. Introduction to Information Technology
 
 - major reference course: https://online.stanford.edu/courses/soe-ycscs101-sp-computer-science-101
@@ -35,7 +35,14 @@ Solving two problems with containers mainly: 1. how to manange multiple replicas
 - https://kubernetes.io/docs/tutorials/
 - https://www.katacoda.com/courses/kubernetes/
 ## 6. Introduction to cloud native application development
-## 7. Online/Remote working
+- wrap your application as a container into a k8s deployment: https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/
+- add a service to expose your application using LoadBalancer or NodePort.
+- you need to add a docker hub username/password as a secret in order to pull images from docker io in k8s cluster: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/#create-a-secret-by-providing-credentials-on-the-command-line
+```
+kubectl create secret docker-registry regcred --docker-server=docker.io --docker-username=wjunott --docker-password=your_password
+```
+- one example can be found from [k8sexample](k8sexample) that wrap the helloserver image into a k8s service.
+## 7. Online/Remote Work
 - zoom to meet: https://www.zoom.com
 - slack to chat: https://www.slack.com
 - git to code/review in peers: https://github.com
