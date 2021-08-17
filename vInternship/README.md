@@ -36,12 +36,13 @@ Solving two problems with containers mainly: 1. how to manange multiple replicas
 - https://www.katacoda.com/courses/kubernetes/
 ## 6. Introduction to cloud native application development
 - wrap your application as a container into a k8s deployment: https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/
+- yaml format introduction: https://baike.baidu.com/item/YAML
 - add a service to expose your application using LoadBalancer or NodePort.
 - you need to add a docker hub username/password as a secret in order to pull images from docker io in k8s cluster: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/#create-a-secret-by-providing-credentials-on-the-command-line
 ```
-kubectl create secret docker-registry regcred --docker-server=docker.io --docker-username=wjunott --docker-password=your_password
+kubectl create secret docker-registry regcred --docker-server=docker.io --docker-username=your_docker_hub_username --docker-password=your_password
 ```
-- one example can be found from [k8sexample](k8sexample) that wrap the helloserver image into a k8s service.
+- one example can be found from [k8sexample](k8sexample) that wraps the helloserver image into a k8s service.
 ## 7. Online/Remote Work
 - zoom to meet: https://www.zoom.com
 - slack to chat: https://www.slack.com
